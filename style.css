@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+html, body{
+  box-sizing:border-box;
+
+}
+
+body{
+  background-image: url("https://cdn.logojoy.com/wp-content/uploads/2018/07/17142754/AdobeStock_104806545-1024x583.png");
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+h1{
+  font-family: 'Modak', cursive;
+  font-size: 10vmin;
+  text-align:center;
+  color:#f25246;
+  letter-spacing:0.1em;
+  text-shadow:5px 5px #000000;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.folders{
+  width: 1700px;
+  height: 2000px;
+}
+
+
+.place1{
+  z-index:9000;
+  /* margin-top:100vmin; */
+  /* margin-top:-100px; */
+  margin-top:-250px;
+  margin-left:-15px;
+}
+
+.place2{
+  z-index:5000;
+  margin-top:-1998px;
+  margin-left:-18px;
+
+}
+
+.place3{
+  z-index:3000;
+  margin-top:-1993px;
+  margin-left:-30px;
+}
+
+.place4{
+  z-index:1000;
+  margin-top:-1998px;
+
+}
+
+.place5{
+  z-index:-1;
+  margin-top:-2000px;
+
+}
+
+.profile{
+ border: 7px solid #961717;
+ border-radius: 9px;
+ padding: 5px;
+ width: 50vmin;
+}
+
+.profile1{
+border: 7px solid #3aa928;
+ border-radius: 50%;
+ padding: 5px;
+ width: 50vmin;
+}
+
+.outline{
+  border: 7px solid #3aa928;
+   border-radius: 9px;
+   padding: 5px;
+   width: 50vmin;
+}
+
+.logo{
+  width:700px;
+  height: 300px;
+  transform: rotate(-20deg);
+}
+
+/* place of profile photo */
+.place6{
+margin-top:-150px;
+  margin-left: 480px;
+}
+
+/* place of logo */
+.place7{
+  margin-left:190px;
+  margin-top:-1550px;
+}
+
+/* video */
+.place8{
+  margin-left:310px;
+  margin-top:-30px;
+}
+
+/* most popular video text */
+.place9{
+  margin-top:100px;
+  margin-left:320px;
+}
+
+.pewcolor{
+color:#3aa928;
+font-size:40px;
+}
+
+.pewcolor2{
+  color:#c1490c;
+}
+
+.infosize{
+  width:500px;
+  height:800px;
+}
+
+/* inforbox placement */
+.place11{
+  margin-left:950px;
+  margin-top:-400px;
+  width:500px;
+  height:800px;
+}
+
+.place10{
+  margin-top:-750px;
+  text-align:center;
+  font-size:40px;
+}
+
+.place12,.place13,.place14,.place15,.place16,.place17{
+  text-align: center;
+  font-size:30px;
+}
+
+.commentposition{
+  margin-top:-370px;
+  margin-left:250px;
+  width:400px;
+  height:800px;
+}
+
+.commentsize{
+  width:600px;
+  height:150px;
+}
