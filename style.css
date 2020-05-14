@@ -32,49 +32,38 @@ h1{
 .folders{
   width: 1700px;
   height: 2000px;
+  padding:none;
 }
 
 
 .place1{
-  z-index:9000;
-  /* margin-top:100vmin; */
-  /* margin-top:-100px; */
   margin-top:-250px;
-  margin-left:-15px;
+  /* margin-left:-px; */
 }
 
 .place2{
-  z-index:5000;
-  margin-top:-1998px;
-  margin-left:-18px;
+  margin-top:-1997px;
+  margin-left:-14px;
 
 }
 
 .place3{
-  z-index:3000;
-  margin-top:-1993px;
-  margin-left:-30px;
+  margin-top:-1997px;
+  margin-left:-35px;
 }
 
 .place4{
-  z-index:1000;
   margin-top:-1998px;
-
+margin-left:-15px;
 }
 
 .place5{
-  z-index:-1;
   margin-top:-2000px;
-
+  margin-left:5px;
+  background: none;
 }
 
-.profile{
- border: 7px solid #961717;
- border-radius: 9px;
- padding: 5px;
- width: 50vmin;
-}
-
+/* pew profile pic */
 .profile1{
 border: 7px solid #3aa928;
  border-radius: 50%;
@@ -82,8 +71,71 @@ border: 7px solid #3aa928;
  width: 50vmin;
 }
 
-.outline{
+/* pew outline */
+.outline1{
   border: 7px solid #3aa928;
+   border-radius: 9px;
+   padding: 5px;
+   width: 50vmin;
+}
+
+/* jeffree profile pic */
+.profile2{
+  border: 7px solid #bf3bdf;
+   border-radius: 50%;
+   padding: 5px;
+   width: 50vmin;
+}
+
+/* maya profile pic */
+.profile3{
+  border: 7px solid red;
+   border-radius: 50%;
+   padding: 5px;
+   width: 50vmin;
+}
+
+/* maya video outline */
+.outline3{
+  border: 7px solid red;
+   border-radius: 9px;
+   padding: 5px;
+   width: 50vmin;
+}
+/* jeffree video outline */
+.outline2{
+  border: 7px solid #bf3bdf;
+   border-radius: 9px;
+   padding: 5px;
+   width: 50vmin;
+}
+
+/* shane profile pic */
+.profile4{
+  border: 7px solid #5b176b;
+   border-radius: 50%;
+   padding: 5px;
+   width: 50vmin;
+}
+
+/* shane video profile pic */
+.outline4{
+  border: 7px solid #1b3a12;
+   border-radius: 9px;
+   padding: 5px;
+   width: 50vmin;
+}
+
+/* eva profile photo */
+.profile5{
+  border: 7px solid #9fc6ce;
+   border-radius: 50%;
+   padding: 5px;
+   width: 50vmin;
+}
+
+.outline5{
+  border: 7px solid #c7af36;
    border-radius: 9px;
    padding: 5px;
    width: 50vmin;
@@ -119,35 +171,45 @@ margin-top:-150px;
   margin-left:320px;
 }
 
-.pewcolor{
-color:#3aa928;
+.subtitlesize{
 font-size:40px;
 }
 
-.pewcolor2{
-  color:#c1490c;
+/* color of most popular text */
+.pewcolor{
+  color:#3aa928;
 }
 
+/* color of marked info in infobox */
+.pewcolor2{
+  background-color:#c1490c;
+  color:#3aa928;
+}
+
+/* size of the infobox */
 .infosize{
-  width:500px;
+  width:1200px;
   height:800px;
+
 }
 
 /* inforbox placement */
 .place11{
-  margin-left:950px;
-  margin-top:-400px;
-  width:500px;
+  width:1200px;
   height:800px;
+  margin-left:650px;
+  margin-top:-400px;
+  /* width:500px;
+  height:800px; */
 }
 
 .place10{
-  margin-top:-750px;
+  margin-top:-650px;
   text-align:center;
   font-size:18px;
 }
 
-.place12,.place13,.place14,.place15,.place16,.place17{
+.place12{
   text-align: center;
   font-size:15px;
 }
@@ -168,4 +230,55 @@ font-size:40px;
     margin-left:auto;
     margin-right:auto;
     width:1550px;
+}
+
+.navbar1{
+  display:flex;
+  justify-content: center;
+  margin-top:-1765px;
+  margin-left:-160px;
+}
+
+.tabsize{
+  width:150px;
+  height:90px;
+  padding-left:75px;
+  padding-bottom: 80px;
+  padding-top:-100px;
+}
+
+.starcolor{
+  color:#bf3bdf;
+}
+
+.starcolor2{
+  background-color:#bae8bb;
+  color:#bf3bdf;
+}
+
+.mayacolor{
+  color:red;
+}
+
+.mayacolor2{
+  background-color:#242dd1;
+  color:red;
+}
+
+.shanecolor{
+  color:#5b176b;
+}
+
+.shanecolor2{
+  background-color: black;
+  color:#5b176b;
+}
+
+.evacolor{
+  color:#b086c7;
+}
+
+.evacolor2{
+  background-color:#c7af36;
+  color:red;
 }
