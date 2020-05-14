@@ -189,7 +189,7 @@ font-size:40px;
 /* size of the infobox */
 .infosize{
   width:1200px;
-  height:800px;
+  height:1000px;
 
 }
 
@@ -204,14 +204,14 @@ font-size:40px;
 }
 
 .place10{
-  margin-top:-650px;
+  margin-top:-850px;
   text-align:center;
-  font-size:18px;
+  font-size:20px;
 }
 
 .place12{
   text-align: center;
-  font-size:15px;
+  font-size:17px;
 }
 
 .commentposition{
@@ -245,7 +245,15 @@ font-size:40px;
   padding-left:75px;
   padding-bottom: 80px;
   padding-top:-100px;
+  transition: all 1s;
 }
+
+.tabsize:hover{
+width:200px;
+height:140px;
+
+}
+
 
 .starcolor{
   color:#bf3bdf;

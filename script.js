@@ -1,4 +1,3 @@
-<script src="rellax.min.js"></script>
 
 
 var myJSON = [
@@ -74,8 +73,37 @@ var myJSON = [
     "Genre": "Beauty, Fashion, Comedy, Lifestyle",
     "Total Views": "1.22 Billion Views",
     "Subscribers": "11 Million",
-    "Channel URL": "",
+    "Channel URL": "https://www.youtube.com/user/mylifeaseva?app=desktop",
     "Twitter": "https://twitter.com/lifeaseva?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
     "IG": "https://www.instagram.com/mylifeaseva/?hl=en",
 }
 ]
+
+for (var i = 0; i < myJSON.length; i++){
+  makeElement(myJSON[i]);
+}
+
+function makeElement(incomingJson){
+  if(window.location.pathname == "documents/introtoweb/influencers/index.html"){
+    var div = document.getElementsByClassName('place11');
+  // let newElement= document.createElement('DIV');
+  // newElement.classList.add('place11');
+
+  let newimg = document.createElement('IMG');
+  newimg.src="infobox-01.png";
+  newimg.classList="infosize";
+  div.appendChild(newimg);
+
+
+      let newp = document.createElement('P');
+      newp.classList.add('place10');
+      newp.innerHTML = incomingJSON['influencer'];
+      div.appendChild(newp);
+
+      let newmark = document.createElement('MARK');
+      newmark.classList.add('Pewcolor2');
+      newp.appendChild(newmark);
+
+  }
+
+}
